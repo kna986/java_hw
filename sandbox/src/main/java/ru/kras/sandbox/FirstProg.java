@@ -6,7 +6,7 @@ public class FirstProg {
     Point s1 = new Point(0.0, 0.0);
     Point s2 = new Point(-1.0, -1.0);
 
-    double dist1 = s1.distance(s2);
+    double dist1 = s1.distance(s1);
     System.out.println("Hello from method! Distance is: " + dist1);
     double dist2 = distance2(s1, s2);
     System.out.println("Hello from function! Distance is: " + dist2);
